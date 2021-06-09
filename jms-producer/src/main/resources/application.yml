@@ -1,0 +1,10 @@
+spring:
+  activemq:
+    in-memory: false
+  jms:
+    template:
+      default-destination: sandbox.order.queue
+
+app:
+  jms:
+    custom-destination: sandbox.order.custom.queue
