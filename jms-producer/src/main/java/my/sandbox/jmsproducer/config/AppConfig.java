@@ -30,6 +30,7 @@ public class AppConfig {
     /**
      * used in
      * @see ConvertAndSendService
+     * @see my.sandbox.jmsproducer.service.jms.PostProcessingService
      */
     @Bean
     public MappingJackson2MessageConverter messageConverter() {
