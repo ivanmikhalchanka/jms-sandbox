@@ -1,8 +1,9 @@
 package my.sandbox.jmsconsumer.service.impl;
 
 import lombok.SneakyThrows;
-import my.sandbox.jmsconsumer.model.Order;
+import my.sandbox.model.Order;
 import my.sandbox.jmsconsumer.service.OrderReceiverService;
+import org.apache.activemq.command.ActiveMQObjectMessage;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.stereotype.Service;

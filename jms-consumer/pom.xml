@@ -6,9 +6,16 @@
     <description>Sandbox to learn how to build JMS consumer</description>
 
     <parent>
-        <artifactId>jms-sandbox</artifactId>
         <groupId>my.sandbox</groupId>
+        <artifactId>jms-sandbox</artifactId>
         <version>0.0.1</version>
     </parent>
 
+    <dependencies>
+        <dependency>
+            <groupId>my.sandbox</groupId>
+            <artifactId>model</artifactId>
+            <version>${model.version}</version>
+        </dependency>
+    </dependencies>
 </project>

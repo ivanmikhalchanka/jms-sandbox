@@ -22,11 +22,13 @@
         <spring.version>2.5.0</spring.version>
         <springfox.version>3.0.0</springfox.version>
         <jib.version>3.1.0</jib.version>
+        <model.version>0.0.1</model.version>
     </properties>
 
     <modules>
         <module>jms-producer</module>
         <module>jms-consumer</module>
+        <module>model</module>
     </modules>
 
     <dependencies>

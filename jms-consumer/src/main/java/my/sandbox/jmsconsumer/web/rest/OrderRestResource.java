@@ -1,6 +1,6 @@
 package my.sandbox.jmsconsumer.web.rest;
 
-import my.sandbox.jmsconsumer.model.Order;
+import my.sandbox.model.Order;
 import my.sandbox.jmsconsumer.service.OrderReceiverService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

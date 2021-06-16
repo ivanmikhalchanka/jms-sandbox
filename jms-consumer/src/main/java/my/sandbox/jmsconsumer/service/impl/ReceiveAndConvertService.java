@@ -1,6 +1,6 @@
 package my.sandbox.jmsconsumer.service.impl;
 
-import my.sandbox.jmsconsumer.model.Order;
+import my.sandbox.model.Order;
 import my.sandbox.jmsconsumer.service.OrderReceiverService;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;

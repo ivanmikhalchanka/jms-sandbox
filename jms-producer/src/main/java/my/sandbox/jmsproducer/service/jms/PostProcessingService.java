@@ -1,7 +1,7 @@
 package my.sandbox.jmsproducer.service.jms;
 
-import my.sandbox.jmsproducer.model.Order;
 import my.sandbox.jmsproducer.service.OrderMessageProducer;
+import my.sandbox.model.Order;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 

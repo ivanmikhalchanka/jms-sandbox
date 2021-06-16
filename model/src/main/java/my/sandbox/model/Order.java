@@ -1,14 +1,12 @@
-package my.sandbox.jmsconsumer.model;
+package my.sandbox.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 
 import java.io.Serializable;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 @EqualsAndHashCode
 public class Order implements Serializable {

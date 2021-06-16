@@ -1,6 +1,6 @@
 package my.sandbox.jmsproducer.web.rest;
 
-import my.sandbox.jmsproducer.model.Order;
+import my.sandbox.model.Order;
 import my.sandbox.jmsproducer.service.OrderMessageProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
