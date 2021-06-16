@@ -1,13 +1,13 @@
 package my.sandbox.jmsproducer.service.jms;
 
 import my.sandbox.jmsproducer.model.Order;
-import my.sandbox.jmsproducer.service.OrderMessagingService;
+import my.sandbox.jmsproducer.service.OrderMessageProducer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
 @Service("stringDestination")
-public class StringDestinationService implements OrderMessagingService {
+public class StringDestinationService implements OrderMessageProducer {
     private final JmsTemplate jms;
     private final String destination;
 

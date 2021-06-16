@@ -1,7 +1,7 @@
 package my.sandbox.jmsproducer.service.jms;
 
 import my.sandbox.jmsproducer.model.Order;
-import my.sandbox.jmsproducer.service.OrderMessagingService;
+import my.sandbox.jmsproducer.service.OrderMessageProducer;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +9,7 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 
 @Service("postProcessing")
-public class PostProcessingService implements OrderMessagingService {
+public class PostProcessingService implements OrderMessageProducer {
     public static final String ORDER_SOURCE_HEADER = "ORDER_SOURCE";
     private final JmsTemplate jms;
 

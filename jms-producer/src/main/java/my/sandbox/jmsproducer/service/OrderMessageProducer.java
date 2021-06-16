@@ -2,6 +2,6 @@ package my.sandbox.jmsproducer.service;
 
 import my.sandbox.jmsproducer.model.Order;
 
-public interface OrderMessagingService {
+public interface OrderMessageProducer {
     void sendOrder(Order order);
 }

@@ -1,10 +1,13 @@
+server:
+  port: 8082
+
 spring:
   activemq:
     in-memory: false
   jms:
     template:
-      default-destination: sandbox.order.queue
+      default-destination: sandbox.order.first.queue
 
 app:
   jms:
-    custom-destination: sandbox.order.custom.queue
+    custom-destination: sandbox.order.second.queue
