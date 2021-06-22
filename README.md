@@ -4,9 +4,9 @@ Sandbox project for exploring JMS
 #### Set up
 ##### Using docker-compose:
 2. Build using [Jib Maven Plugin](https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin):  
-   `./mvnw compile jib:dockerBuild`
+   `./mvnw package jib:dockerBuild`
 3. Run docker-compose:
-   `docker-compose up -d`
+   `docker compose up -d`
 
 ##### Install ActiveMQ instead of using docker-compose:
 1. [Install ActiveMQ](https://activemq.apache.org/getting-started.html)
